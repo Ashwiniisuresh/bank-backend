@@ -1,0 +1,19 @@
+to create a server(NODE JS, EXPRESS)
+
+1  create a folderand create  package.json -(npm init)
+2  create entry point  file : index.js
+3  we have to install Express in the server : npm i express
+4  import express inside index.js file
+5  create server app using express
+6  set up port server app
+7 to resolve client request
+	-HTTP Status code
+		1xx-Information
+		2xx-Success
+		3xx-Redirection
+		4xx-
+8 To connect  Mongo Db with server -
+	8.1 mongoose library - npm i mongoose
+9Api call- asynchronous in js - to resolve this we have to use promise.promise has 2 states
+	10.1 resolve state- then()
+	10.2rejectd state-catch()
